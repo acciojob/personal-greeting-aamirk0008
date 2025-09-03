@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
     <input value={task} type='text' onChange={handleInput} placeholder="Enter Name"/>
-    {task ? <p>Hello {task}</p> : null}
+    {task ? <p>Hello, {task}</p> : null}
         {/* Do not remove the main div */}
     </div>
   )
